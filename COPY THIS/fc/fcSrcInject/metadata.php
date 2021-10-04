@@ -16,16 +16,16 @@ $aModule = [
         With this module you can add additional content such as
         CSS snippets or tracking codes, fed directly into the source code through the admin page.',
     ),
-    'thumbnail' => '',
+    'thumbnail' => 'picture_transparent_small.png',
     'version' => '1.0.0',
     'author' => 'FATCHIP GmbH',
     'email' => 'support@fatchip.de',
     'extend' => [
-        ],
+    ],
     'controllers' => [
-       ],
+    ],
     'events'       => [
-        ],
+    ],
     'blocks' => [
         [
             'template' => 'layout/base.tpl',
