@@ -9,7 +9,7 @@ OXID Module for sourcecode injection
 ```
 "autoload-dev": {
     "psr-4": {
-        "FATCHIP\\fcSrcInject\\": "./source/modules/fc/fcSrcInject"
+        "FATCHIP\\fcsrcinject\\": "./source/modules/fc/fcsrcinject"
     }
 },
 ```
@@ -20,7 +20,7 @@ vendor/bin/composer dump-autoload
 
 - If your OXID Version >= 6.2, execute the following command
 ```
-vendor/bin/oe-console oe:module:install-configuration source\modules\fc\fcSrcInject
+vendor/bin/oe-console oe:module:install-configuration source\modules\fc\fcsrcinject
 ```
 
 - Log in to the shop admin area go to the module

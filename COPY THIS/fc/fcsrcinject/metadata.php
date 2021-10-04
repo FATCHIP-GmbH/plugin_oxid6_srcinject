@@ -30,12 +30,12 @@ $aModule = [
         [
             'template' => 'layout/base.tpl',
             'block'=>'head_css',
-            'file'=>'fcInjectHead.tpl'
+            'file'=>'views/blocks/fcInjectHead.tpl'
         ],
         [
             'template' => 'layout/base.tpl',
             'block'=>'base_js',
-            'file'=>'fcInjectBody.tpl'
+            'file'=>'views/blocks/fcInjectBody.tpl'
         ],
     ],
 
