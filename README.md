@@ -1,5 +1,5 @@
 # Fatchip Oxid Sourcecode Injection Module
-OXID Module for sourcecode injection \                     
+OXID Module for sourcecode injection                    
     With this module you can add additional content such as \
     CSS snippets or tracking codes, fed directly into the source code trough the admin page.
     
