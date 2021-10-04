@@ -8,23 +8,20 @@ $aModule = [
     'title' => '<img src="' . $sImgUrl . '" alt="FC"> FATCHIP Module OXID Sourcecode injection',
     'description' => array (
         'de' => 'OXID Modul für Sourcecode injection.
-        Mit diesem Modul können sie zusätzliche inhalte wie 
-        CSS Schnipsel oder Tracking Codes, direkt durch die Modul-Einstellungen in den Quellcode einspeißen.',
+        Mit diesem Modul können sie zusätzliche Inhalte wie CSS Schnipsel oder Tracking Codes,
+        direkt durch die Modul-Einstellungen in den Quellcode einspeisen.',
 
 
         'en' => 'OXID module for sourcecode injection.
         With this module you can add additional content such as
-        CSS snippets or tracking codes, fed directly into the source code trough the admin page.',
+        CSS snippets or tracking codes, fed directly into the source code through the admin page.',
     ),
     'thumbnail' => '',
     'version' => '1.0.0',
     'author' => 'FATCHIP GmbH',
     'email' => 'support@fatchip.de',
     'extend' => [
-//        \OxidEsales\Eshop\Core\Controller\BaseController::class => \FATCHIP\fcSrcInject\Extend\Core\Controller\BaseController::class,
-//        \OxidEsales\Eshop\Application\Controller\FrontendController::class => \FATCHIP\fcSrcInject\Extend\Application\Controller\FrontendController::class,
-          \OxidEsales\Eshop\Core\ViewConfig::class => \FATCHIP\fcSrcInject\Extend\Core\ViewConfig::class,
-    ],
+        ],
     'controllers' => [
        ],
     'events'       => [

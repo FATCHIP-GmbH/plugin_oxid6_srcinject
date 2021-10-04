@@ -1,2 +1,3 @@
 [{$smarty.block.parent}]
-[{$oViewConf->fcSrcInject_getBody()}]
+[{assign var="oConfig" value=$oViewConf->getConfig()}]
+[{$oConfig->getConfigParam('fcsrcinject_body')}]
