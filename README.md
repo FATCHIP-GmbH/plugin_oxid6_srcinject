@@ -20,7 +20,7 @@ vendor/bin/composer dump-autoload
 
 - If your OXID Version >= 6.2, execute the following command
 ```
-vendor/bin/oe-console oe:module:install-configuration source\modules\fc\fcsrcinject
+vendor/bin/oe-console oe:module:install-configuration source/modules/fc/fcsrcinject
 ```
 
 - Log in to the shop admin area go to the module
