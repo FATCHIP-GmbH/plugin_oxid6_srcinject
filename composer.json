@@ -14,7 +14,7 @@
         "Changelog.md"
       ],
       "target-directory": "fc/fcsrcinject",
-      "source-directory": "COPY THIS"
+      "source-directory": "COPY THIS/fc/fcsrcinject"
     }
   },
   "require": {
