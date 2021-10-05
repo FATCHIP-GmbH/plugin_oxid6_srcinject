@@ -25,6 +25,8 @@ $aModule = [
     'controllers' => [
     ],
     'events'       => [
+        'onActivate'     => '\FATCHIP\fcsrcinject\Core\Events::onActivate',
+        'onDeactivate'   => '\FATCHIP\fcsrcinject\Core\Events::onDeactivate',
     ],
     'blocks' => [
         [
