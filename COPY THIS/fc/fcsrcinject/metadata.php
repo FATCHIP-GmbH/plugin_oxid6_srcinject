@@ -48,14 +48,14 @@ $aModule = [
         [
             'group'    => 'FCSRCINJECT',
             'name'     => 'fcsrcinject_head',
-            'type'     => 'str',
+            'type'     => 'arr',
             'value'    => '',
             'position' => 1
         ],
         [
             'group'    => 'FCSRCINJECT',
             'name'     => 'fcsrcinject_body',
-            'type'     => 'str',
+            'type'     => 'arr',
             'value'    => '',
             'position' => 1
         ],

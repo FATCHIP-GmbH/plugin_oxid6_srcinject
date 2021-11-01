@@ -1,3 +1,5 @@
 [{$smarty.block.parent}]
 [{assign var="oConfig" value=$oViewConf->getConfig()}]
-[{$oConfig->getConfigParam('fcsrcinject_head')}]
+[{foreach from=$oConfig->getConfigParam('fcsrcinject_head') item=row}]
+    [{$row}]<br>
+[{/foreach}]
