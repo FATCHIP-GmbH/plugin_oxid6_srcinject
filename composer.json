@@ -1,5 +1,5 @@
 {
-  "name": "fatchip/fcsrcinject",
+  "name": "fatchip-gmbh/plugin_oxid6_srcinject",
   "description": "An Oxid Module for sourcecode injection",
   "type": "oxideshop-module",
   "keywords": ["oxid", "modules", "eShop"],
@@ -14,15 +14,15 @@
         "Changelog.md"
       ],
       "target-directory": "fc/fcsrcinject",
-      "source-directory": "COPY THIS/fc/fcsrcinject"
+      "source-directory": "fc/fcsrcinject"
     }
   },
   "require": {
-    "php": ">=5.6"
+    "php": ">=7.3"
   },
   "autoload": {
     "psr-4": {
-      "FATCHIP\\fcsrcinject\\": "../../../source/modules/fc/fcsrcinject"
+      "fc\\fcsrcinject\\": "../../../source/modules/fc/fcsrcinject"
     }
   }
 }
