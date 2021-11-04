@@ -4,6 +4,15 @@ OXID Module for sourcecode injection
     CSS snippets or tracking codes, fed directly into the source code through  the admin page.
     
 ## Installation
+
+### Installation with Composer
+
+- In your console, navigate to the root directory of your shop
+- Use the following command to install the module:
+`composer require fatchip-gmbh/plugin_oxid6_srcinject`
+
+### Manual Installation
+
 - Copy the content into source/modules of the shop installation
 - In the composer.json file in the base folder of the shop add the autoload configuration or extend if already existing:
 ```
