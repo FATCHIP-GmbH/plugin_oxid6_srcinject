@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "fc\\fcsrcinject\\": "../../../source/modules/fc/fcsrcinject"
+      "FATCHIP\\fcsrcinject\\": "../../../source/modules/fc/fcsrcinject"
     }
   }
 }
